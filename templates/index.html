@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor's Assistant</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Doctor's Assistant</h1>
+        <button id="speakButton">Speak</button>
+        <div id="inputDisplay"></div>
+        <div id="outputDisplay"></div>
+    </div>
+    <script src="{{url_for('static', filename='script.js')}}"></script>
+</body>
+</html>
